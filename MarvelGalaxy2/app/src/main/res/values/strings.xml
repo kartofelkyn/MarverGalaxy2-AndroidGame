@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MarvelGalaxy2</string>
+    <string name="concept_inspired_by_marvel_academic_use">Concept InspIred by Marvel \n(academIc use)</string>
+    <string name="flips">FLIPS:</string>
+    <string name="_0_00">0:00</string>
+    <string name="rank2Player">Player</string>
+    <string name="rank1player">Player</string>
+    <string name="rank3player">Player</string>
+    <string name="rank4player">Player</string>
+    <string name="rank5player">Player</string>
+    <string name="r1time">--</string>
+    <string name="r1turn">--</string>
+    <string name="r1score">--</string>
+    <string name="r2time">--</string>
+    <string name="r2turn">--</string>
+    <string name="r2score">--</string>
+    <string name="r3time">--</string>
+    <string name="r3turn">--</string>
+    <string name="r3score">--</string>
+    <string name="r4time">--</string>
+    <string name="r4turn">--</string>
+    <string name="r4score">--</string>
+    <string name="r5time">--</string>
+    <string name="r5turn">--</string>
+    <string name="r5score">--</string>
+</resources>

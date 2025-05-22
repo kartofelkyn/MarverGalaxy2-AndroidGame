@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "930137916387",
+    "firebase_url": "https://marvelgalaxy-d8255-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "marvelgalaxy-d8255",
+    "storage_bucket": "marvelgalaxy-d8255.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:930137916387:android:3fd583f06c32b68c9596d6",
+        "android_client_info": {
+          "package_name": "com.marvelgalaxy2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSQt7wv5llVn11OTqLyEgBsPazDdFn9Kc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

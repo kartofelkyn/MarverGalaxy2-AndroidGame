@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/backgroundSetting"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/img_setting_layout"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <RadioGroup
+        android:id="@+id/radiogroupMusic"
+        android:layout_width="288dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="314dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="469dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/backgroundSetting"
+        app:layout_constraintEnd_toEndOf="@+id/backgroundSetting"
+        app:layout_constraintStart_toStartOf="@+id/backgroundSetting"
+        app:layout_constraintTop_toTopOf="@+id/backgroundSetting">
+
+        <RadioButton
+            android:id="@+id/music1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:buttonTint="@color/white"
+            android:fontFamily="@font/lora"
+            android:text="Age of Ultron"
+            android:textColor="@color/white"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <RadioButton
+            android:id="@+id/music2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:buttonTint="@color/white"
+            android:fontFamily="@font/lora"
+            android:text="The Avengers"
+            android:textColor="@color/white"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radiogroupDifficulty"
+        android:layout_width="230dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="154dp"
+        android:layout_marginTop="393dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="391dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/backgroundSetting"
+        app:layout_constraintEnd_toEndOf="@+id/backgroundSetting"
+        app:layout_constraintStart_toStartOf="@+id/backgroundSetting"
+        app:layout_constraintTop_toTopOf="@+id/backgroundSetting">
+
+        <RadioButton
+            android:id="@+id/diff_easy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:buttonTint="@color/white"
+            android:fontFamily="@font/lora"
+            android:text="Easy"
+            android:textColor="@color/white"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <RadioButton
+            android:id="@+id/diff_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:buttonTint="@color/white"
+            android:fontFamily="@font/lora"
+            android:text="Normal"
+            android:textColor="@color/white"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <RadioButton
+            android:id="@+id/diff_hard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:buttonTint="@color/white"
+            android:fontFamily="@font/lora"
+            android:text="Hard"
+            android:textColor="@color/white"
+            tools:ignore="TouchTargetSizeCheck" />
+    </RadioGroup>
+
+    <SeekBar
+        android:id="@+id/volumeControl"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="263dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="356dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="432dp"
+        android:max="10"
+        android:progress="3"
+        android:progressTint="@color/black"
+        android:thumbTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/backgroundSetting"
+        app:layout_constraintEnd_toEndOf="@+id/backgroundSetting"
+        app:layout_constraintStart_toStartOf="@+id/backgroundSetting"
+        app:layout_constraintTop_toTopOf="@+id/backgroundSetting" />
+
+    <ImageView
+        android:id="@+id/btnDone"
+        android:layout_width="206dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="714dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginBottom="37dp"
+        app:layout_constraintBottom_toBottomOf="@+id/backgroundSetting"
+        app:layout_constraintEnd_toEndOf="@+id/backgroundSetting"
+        app:layout_constraintStart_toStartOf="@+id/backgroundSetting"
+        app:layout_constraintTop_toTopOf="@+id/backgroundSetting"
+        app:srcCompat="@drawable/btn_done" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

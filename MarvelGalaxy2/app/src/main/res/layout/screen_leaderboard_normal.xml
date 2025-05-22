@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/bgMainGameNormal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/bg_lbnormal" />
+
+    <ImageView
+        android:id="@+id/iconTrophy"
+        android:layout_width="106dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="681dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/bgMainGameNormal"
+        app:layout_constraintEnd_toEndOf="@+id/bgMainGameNormal"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/bgMainGameNormal"
+        app:layout_constraintTop_toTopOf="@+id/bgMainGameNormal"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/icon_oranget" />
+
+    <ImageView
+        android:id="@+id/btnHome"
+        android:layout_width="60dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="725dp"
+        android:layout_marginEnd="250dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/bgMainGameNormal"
+        app:layout_constraintEnd_toEndOf="@+id/bgMainGameNormal"
+        app:layout_constraintStart_toStartOf="@+id/bgMainGameNormal"
+        app:layout_constraintTop_toTopOf="@+id/bgMainGameNormal"
+        app:srcCompat="@drawable/btn_home" />
+
+    <ImageView
+        android:id="@+id/btnSetting"
+        android:layout_width="64dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="257dp"
+        android:layout_marginTop="722dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/bgMainGameNormal"
+        app:layout_constraintEnd_toEndOf="@+id/bgMainGameNormal"
+        app:layout_constraintStart_toStartOf="@+id/bgMainGameNormal"
+        app:layout_constraintTop_toTopOf="@+id/bgMainGameNormal"
+        app:srcCompat="@drawable/btn_sttings" />
+
+    <ImageView
+        android:id="@+id/btnIconNext"
+        android:layout_width="51dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="321dp"
+        android:layout_marginTop="671dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="93dp"
+        app:layout_constraintBottom_toBottomOf="@+id/bgMainGameNormal"
+        app:layout_constraintEnd_toEndOf="@+id/bgMainGameNormal"
+        app:layout_constraintStart_toStartOf="@+id/bgMainGameNormal"
+        app:layout_constraintTop_toTopOf="@+id/bgMainGameNormal"
+        app:srcCompat="@drawable/btn_next" />
+
+    <include
+        android:id="@+id/leaderboardlayout"
+        layout="@layout/layout_leaderboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/bgMainGameNormal"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/bgMainGameNormal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
